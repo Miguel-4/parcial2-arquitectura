@@ -7,6 +7,7 @@ import javax.xml.crypto.Data;
 
 public class Buy {
 
+  //Esto lo hice yo: Juan Miguel Hernandez Retamoso - 0000220471
   //Realizamos la inversión despues de hacer una clase abstracta
   private DatabasePort database;
 

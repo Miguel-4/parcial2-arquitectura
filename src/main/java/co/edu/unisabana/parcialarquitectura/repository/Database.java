@@ -9,7 +9,8 @@ public class Database implements DatabasePort {
   public int savePurchase(int buyerCode, String item) {
     if (buyerCode == 0 || item == null || item.isEmpty()) {
       return 0;
+    } else {
+      return 1;
     }
-    return 1;
   }
 }
